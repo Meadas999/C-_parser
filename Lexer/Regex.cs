@@ -1,6 +1,11 @@
-﻿namespace eigen_parser;
+﻿using System.ComponentModel;
 
-public enum Regex
-{
-    
+namespace eigen_parser;
+
+public enum Regex{
+    [Description("STRING")]
+    String,
+
+
+
 }
