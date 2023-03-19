@@ -2,10 +2,9 @@
 
 namespace eigen_parser;
 
-public enum Regex{
-    [Description("STRING")]
+public enum TokenType
+{
     String,
-
-
-
+    
+    
 }
