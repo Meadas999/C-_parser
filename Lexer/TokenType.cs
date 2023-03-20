@@ -2,19 +2,13 @@
 
 namespace eigen_parser;
 
-<<<<<<< Updated upstream:Lexer/TokenType.cs
 public enum TokenType
 {
     String,
-    
-    
-=======
-public enum Regex{
-    String,
+    Name,
     Number,
-    
-
-
-
->>>>>>> Stashed changes:Lexer/Regex.cs
+    Operator,
+    Binary,
+    Unary,
+    Statement,
 }
