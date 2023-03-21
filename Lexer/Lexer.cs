@@ -16,5 +16,4 @@ public class Lexer
         return this.cursor < input.Length;
     }
     
-    public
 }
